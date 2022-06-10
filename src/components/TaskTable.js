@@ -24,8 +24,8 @@ export default function TaskTable(props) {
     <td>{task.name}</td>
     <td>
     <div classname="form-check text-center" onClick={(e) => props.onTaskCompleteToggle(task.id)}>
-        <input classname="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-        <label classname="form-check-label" for="flexCheckDefault">
+        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+        <label className="form-check-label" for="flexCheckDefault">
         </label>
 </div>
         {/* {task.complete? 'yes':'No'} */}

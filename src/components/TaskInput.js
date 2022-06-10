@@ -13,15 +13,15 @@ export default function TaskInput(props) {
   return (
     <div>
       <form onSubmit={onTaskFormSubmit}>
-        <div classname="input-group mb-3">
+        <div className="input-group mb-3">
           <input
             value={task}
             onChange={(e) => setTask(e.target.value)}
             type="text"
-            classname="form-control"
+            className="form-control"
             placeholder="Task name"
           />
-          <button classname="btn btn-outline-secondary" type="submit">
+          <button className="btn btn-outline-secondary" type="submit">
             +
           </button>
         </div>
